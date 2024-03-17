@@ -1,0 +1,35 @@
+body {
+    max-width: 100%;
+    margin: auto;
+    /* background-image: linear-gradient(rgba(3, 0, 0, 0.838),rgba(16, 1, 47, 0.845)),url("Images/bg2.jpg"); */
+    background-position: center;
+    background-color: rgb(169, 211, 237);
+    background-size: cover;
+    position: relative;
+    display:block;
+  }
+
+  .text-box h1{
+    text-align: center;
+    font-size: 800%;
+    margin: 0 2% ;
+    color: rgb(12, 2, 47);
+    font-weight: bold;
+    padding-top: 2%;
+    
+}
+
+#fp {
+    background-color:#07012c;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#fimg{
+    padding-top: 2%;
+    padding-right: 2%;
+}

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Plugin/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="Plugin/jquery.min.js"></script>
+    <script src="Plugin/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CSS/myfines.css">
+    <link rel="icon" href="Images/logo.png" type="image/png">
+    <title>FineList</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="home.php"><img src="Images/logo.png"></a>
+            <div class="nav-links">
+                <ul>
+
+    <li>
+      <a class="nav-link" href="home.php">
+     <i class="bi bi-house-fill" style = "color:white" ></i>
+     </a>
+     </li> 
+                    
+    <li>
+     <a class="nav-link" href="myfines.php">
+     <i class="bi bi-cash-coin" style = "color:#fee904" href="fine_pay.php"></i>
+     </a>
+    </li> 
+
+     <li>
+     <a class="nav-link" href="profile.php">
+     <i class="bi bi-person-fill" style = "color:white" href="profile.php"></i>
+     </a>
+     </li> 
+  
+     <li>
+     <a class="nav-link" href="settings.php">
+     <i class="bi bi-gear-fill" style = "color:white"  href="settings.php"></i>
+     </a>
+     </li> 
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+
+    <!-- Social media bar -->
+    <div class="icon-bar">
+      <a href="https://www.police.lk/" target="_blank" class="policeweb"><i class="fa fa-globe"></i></a>
+      <a href="https://www.facebook.com/SL-Police-Media-2095754130735409/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+      <a href="https://mobile.twitter.com/srilanka_police" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+      <a href="police contact.html" class="phone"><i class="fa fa-phone"></i></a>
+  
+    </div>
+
+
+    <div class="content">
+    <div class="text-box">
+    
+        <h1>Fine List</h1>
+    </div> 
+
+</div>
+    
+    
+    <br><br><br>
+    <div class="promo">
+        <div class="card">
+            <div class="container">
+           
+            <table class="table table-hover">
+<thead class="table table-dark">
+<tr>
+  <th scope="col">Offence</th>
+  <th scope="col">Fine</th>
+</tr>
+</thead>
+<tbody>
+<tr >
+  <td scope="row" align="left">1. Identification Plates</th>
+  <td>Rs.1000.00</td>
+  <!-- <td>
+  <button type="button" class="btn btn-danger"  id="status">
+  <i class="bi bi-chevron-right" id="check"></i>
+  Pay </button>
+  </td> -->
+</tr>
+<tr>
+  <td scope="row" align="left">2. Not carrying the Receiving License(R.L.)</th>
+  <td>Rs.1000.00</td>
+  <!-- <td><button type="button" class="btn btn-success"  id="status">
+  <i class="bi bi-check-lg bi-success" id="check"></i>
+  Done </button>
+</td> -->
+</tr>
+<tr>
+  <td scope="row" align="left">3. Contravening R.L provisions</th>
+  <td>Rs.1000.00</td>
+  <!-- <td>
+  <button type="button" class="btn btn-success"  id="status">
+  <i class="bi bi-check-lg bi-success" id="check"></i>
+  Done </button>
+  </td> -->
+</tr>
+<tr>
+    <td scope="row" align="left">4. Driving Emergency Service Vehicles & Public Service vehicles without Driving License (D.L.)</th>
+    <td>Rs.1000.00</td>
+    <!-- <td>
+    <button type="button" class="btn btn-success"  id="status">
+    <i class="bi bi-check-lg bi-success" id="check"></i>
+    Done </button>
+    </td> -->
+  </tr>
+  <tr>
+    <td scope="row" align="left">5. Driving Special Purpose Vehicles without a license</th>
+    <td>Rs.1000.00</td>
+    <!-- <td>
+    <button type="button" class="btn btn-success"  id="status">
+    <i class="bi bi-check-lg bi-success" id="check"></i>
+    Done </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">6. Driving a vehicle loaded with chemicals/hazardous waste without a license</th>
+    <td>Rs.1000.00</td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">7.	Not having a License to drive a specific class of Vehicles</th>
+    <td>Rs.1000.00</td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">8.	Not Carrying the Driving License</th>
+    <td>1st Offence – Rs 25000 to 30000 <br> 2nd Offence – Rs 30000 to 50000
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">9.	Employing a driver who doesn’t have a valid license</th>
+    <td>1st Offence – Rs 25000 to 30000 <br> 2nd Offence – Rs 30000 to 50000
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">10.	Driving under influence of liquor or drugs</th>
+    <td>Rs 25000 to 30000 or 3 months <br> imprisonment or driving <br> license suspended for 12 months
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">11.	Persons under influence of liquor hiring their vehicles</th>
+    <td>A fine of Rs 25000 to 30000 <br> and 6 months imprisonment <br> and driving license suspended
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">12.	In the event of death or injuries to anybody after driving under influence of liquor or drugs
+      <br> Death or injuries caused by driving under influence or liquor or drugs
+      </th>
+    <td style="text-align: center;">If a death occurs : A fine of Rs 100000 - 150000<br>and/or 2 to 10 years imprisonment and driving<br>license suspended
+      A fine of Rs 50000 - 100000<br>for fatal injuries or 5 years imprisonment and<br>driving license suspended
+      A fine of Rs 30000 - 50000<br>for minor injuries and/or 1 year imprisonment <br> and driving license suspended
+      
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">13.	Driving through rail gates recklessly</th>
+    <td>First Offence – Rs 25000 to 30000 <br>
+      Second Offence – Rs 30000 to 40000 <br>
+              and driving license Suspended <br>
+      Third Offence – Rs 40000 to 50000 <br>
+             and driving license Suspended for 
+             12 months        
+      
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">14.	Driving without valid Insurance</th>
+    <td>Rs 25000 to 50000 and/or <br> imprisonment for one month
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">15.	Driving 20% of speed exceeding the maximum speed</th>
+    <td>Common offence – Rs 3000 to 5000 <br>
+      On-the-spot fine of 3000
+      
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">16.	Driving between 20% to 30% of speed exceeding the maximum speed</th>
+    <td>Common Offence – Rs 5000 to 10000
+      
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">17.	Driving between 30% to 50% speed exceeding the maximum speed</th>
+    <td>On-the-spot fine of Rs 5000 <br>
+      Common Offence Rs 5000 to 10000 <br>
+      On-the-spot fine of Rs 10000
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">18.	Driving 50% of speed exceeding the maximum speed</th>
+    <td>Common Offence – Rs 15000 to 25000 <br>
+      On-the-spot fine of Rs 15000  
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">19.	Overtaking from left</th>
+    <td>Common Offence – <br>
+      1.	Rs 2500 to 3500 <br>
+      2.	Rs 3500 to 5000 <br>
+      3.	Rs 5000 to 25000 <br>
+      On-the-spot fine of Rs 2000
+      
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">20.	Not wearing protective helmets</th>
+    <td>Rs 1000
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">21.	Distributions of Advertisements</th>
+    <td>Rs 1000
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">22.	Excessive use of Noise</th>
+    <td>Rs 1000
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">23.	Disobeying Directions & signals of Police officers/Traffic Wardens</th>
+    <td>Rs 2000
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">24.	Non-Compliance of Traffic Signals</th>
+    <td>Rs 1000
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">25.	Failure to take precautions when discharging fuel into tank</th>
+    <td>Rs 1000
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">26.	Halting or parking</th>
+    <td>Rs 1000
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">27.	Non-use of precautions when parking</th>
+    <td>Rs 2000
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+  <tr >
+    <td scope="row" align="left">28.	Excessive carriage of persons in motor car or private coach</th>
+    <td>Rs 500
+    </td>
+    <!-- <td>
+    <button type="button" class="btn btn-danger"  id="status">
+    <i class="bi bi-chevron-right" id="check"></i>
+    Pay </button>
+    </td> -->
+  </tr>
+</tbody>
+</table>
+            </div>
+        </div>
+        <br>
+    </div>
+   
+   <br><br><br><br><br>
+
+   <div class="footer">
+    <img src="Images/p_logo.png" style="float:right;" height="100px" width="80px" id="fimg">
+    <p id="fp">Sri Lanka Police <br>Telephones : +94-11-2421111 / +94-11-2327711-2-3 <br>Fax Nos : +94-11-234553  Email : telligp@police.lk <br> Website : www.police.lk.</p>
+</div>
+</body>
+</html>
+
+
+
+

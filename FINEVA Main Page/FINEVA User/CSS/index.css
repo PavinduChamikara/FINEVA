@@ -1,0 +1,32 @@
+body {
+    max-width: 100%;
+    margin: auto;
+    background-color: rgb(4, 1, 37);
+    background-image: linear-gradient(rgba(0, 0, 78, 0.856),rgba(3, 1, 76, 0.897)),url("images/promo.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display:block;
+    font-family: century gothic;
+  }
+
+#jumbotron-header {
+    text-align: center;
+    font-size: 380%;
+    font-weight: 600;
+
+}
+
+#sub-head{
+    text-align: center;
+    font-size: 155%;
+
+}
+
+.hstack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+  }
+
